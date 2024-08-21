@@ -1,0 +1,55 @@
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #F1F1F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*DISPLAY*/
+
+.display{
+  font-size: 70px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 100px;
+  color: #192954;
+  user-select: none;
+}
+
+/*BUTTONS*/
+
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.buttons > button{
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #1A59FC;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  color: white;
+  outline: 1px solid black;
+}
