@@ -49,5 +49,20 @@ function start() {
 }
 
 function pause(){
-    clearInterval(intervalId);
+    clearInterval(intervalId)
+}
+
+function reset(){
+    clearInterval(intervalId)
+    intervalId = null
+
+    milessimo = 0;
+    segundos = 0;
+    minutos = 0;
+    horas = 0;
+
+    s.innerHTML = '00';
+    m.innerHTML = '00';
+    h.innerHTML = '00';
+    
 }
